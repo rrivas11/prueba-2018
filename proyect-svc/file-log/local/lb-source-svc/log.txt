@@ -1,0 +1,571 @@
+2019-11-28 03:09:40.754  [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool trackingToken:  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h57m22s663ms323µs800ns).
+2019-11-28 03:09:41.039  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 03:09:41.042  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 03:09:41.047  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 03:09:41.077  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 04:48:41.551  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 213928 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 04:48:41.567  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 04:48:43.699  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 04:48:43.864  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 136ms. Found 1 repository interfaces.
+2019-11-28 04:48:45.767  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 04:48:47.049  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 04:48:47.069  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 04:48:47.069  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 04:48:47.069  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 04:48:47.273  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 04:48:47.273  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 5516 ms
+2019-11-28 04:48:47.680  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 04:48:48.073  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 04:48:48.120  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 04:48:48.229  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 04:48:48.457  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 04:48:48.894  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 04:48:49.211  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 04:48:51.841  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 04:48:51.849  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 04:48:53.699  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 04:48:53.879  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 04:48:54.276  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 04:48:54.343  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 04:48:54.350  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 14.039 seconds (JVM running for 16.482)
+2019-11-28 04:49:29.800  [http-nio-91-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 04:49:29.800  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 04:49:29.812  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 12 ms
+2019-11-28 04:49:48.550  [http-nio-91-exec-1] ERROR c.e.proyectsvc.controller.Controller trackingToken:  - Hubo un error en getProducts, en la línea 41 en el método BuildResponse, detalle del error {}
+java.lang.NullPointerException: null
+	at com.exam.proyectsvc.build.ProductResponseBuilder.BuildResponse(ProductResponseBuilder.java:41)
+	at com.exam.proyectsvc.build.ProductResponseBuilder.BuildResponse(ProductResponseBuilder.java:14)
+	at com.exam.proyectsvc.process.ProductProcess.process(ProductProcess.java:32)
+	at com.exam.proyectsvc.controller.Controller.getProducts(Controller.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-28 04:50:10.303  [http-nio-91-exec-4] ERROR c.e.proyectsvc.controller.Controller trackingToken:  - Hubo un error en getProducts, en la línea 41 en el método BuildResponse, detalle del error {}
+java.lang.NullPointerException: null
+	at com.exam.proyectsvc.build.ProductResponseBuilder.BuildResponse(ProductResponseBuilder.java:41)
+	at com.exam.proyectsvc.build.ProductResponseBuilder.BuildResponse(ProductResponseBuilder.java:14)
+	at com.exam.proyectsvc.process.ProductProcess.process(ProductProcess.java:32)
+	at com.exam.proyectsvc.controller.Controller.getProducts(Controller.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-28 04:50:10.779  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 04:50:10.779  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 04:50:10.783  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 04:50:10.815  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 04:50:36.191  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 211756 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 04:50:36.199  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 04:50:37.979  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 04:50:38.159  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 158ms. Found 1 repository interfaces.
+2019-11-28 04:50:38.883  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 04:50:40.199  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 04:50:40.219  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 04:50:40.219  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 04:50:40.219  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 04:50:40.447  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 04:50:40.447  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 4112 ms
+2019-11-28 04:50:40.707  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 04:50:40.951  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 04:50:40.979  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 04:50:41.107  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 04:50:41.295  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 04:50:41.691  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 04:50:42.039  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 04:50:43.939  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 04:50:43.959  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 04:50:45.722  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 04:50:45.850  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 04:50:46.514  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 04:50:46.586  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 04:50:46.590  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 11.636 seconds (JVM running for 13.208)
+2019-11-28 04:50:47.142  [http-nio-91-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 04:50:47.142  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 04:50:47.162  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 20 ms
+2019-11-28 04:51:08.379  [http-nio-91-exec-1] ERROR c.e.proyectsvc.controller.Controller trackingToken:  - Hubo un error en getProducts, en la línea 38 en el método BuildResponse, detalle del error {}
+java.lang.NullPointerException: null
+	at com.exam.proyectsvc.build.ProductResponseBuilder.BuildResponse(ProductResponseBuilder.java:38)
+	at com.exam.proyectsvc.build.ProductResponseBuilder.BuildResponse(ProductResponseBuilder.java:14)
+	at com.exam.proyectsvc.process.ProductProcess.process(ProductProcess.java:32)
+	at com.exam.proyectsvc.controller.Controller.getProducts(Controller.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-28 04:51:08.495  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 04:51:08.495  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 04:51:08.499  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 04:51:08.515  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 04:52:00.738  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 202304 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 04:52:00.750  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 04:52:02.706  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 04:52:02.870  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 140ms. Found 1 repository interfaces.
+2019-11-28 04:52:03.654  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 04:52:04.830  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 04:52:04.846  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 04:52:04.850  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 04:52:04.850  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 04:52:05.150  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 04:52:05.150  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 4264 ms
+2019-11-28 04:52:05.422  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 04:52:05.602  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 04:52:05.634  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 04:52:05.750  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 04:52:05.942  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 04:52:06.290  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 04:52:06.582  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 04:52:08.438  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 04:52:08.454  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 04:52:09.914  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 04:52:10.038  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 04:52:10.398  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 04:52:10.446  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 04:52:10.450  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 10.911 seconds (JVM running for 12.396)
+2019-11-28 04:52:18.135  [http-nio-91-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 04:52:18.135  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 04:52:18.151  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 16 ms
+2019-11-28 04:52:31.610  [http-nio-91-exec-1] ERROR c.e.proyectsvc.controller.Controller trackingToken:  - Hubo un error en getProducts, en la línea 38 en el método BuildResponse, detalle del error {}
+java.lang.NullPointerException: null
+	at com.exam.proyectsvc.build.ProductResponseBuilder.BuildResponse(ProductResponseBuilder.java:38)
+	at com.exam.proyectsvc.build.ProductResponseBuilder.BuildResponse(ProductResponseBuilder.java:14)
+	at com.exam.proyectsvc.process.ProductProcess.process(ProductProcess.java:33)
+	at com.exam.proyectsvc.controller.Controller.getProducts(Controller.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-28 04:52:31.714  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 04:52:31.714  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 04:52:31.718  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 04:52:31.730  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 05:08:34.284  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 217120 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 05:08:34.284  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 05:08:36.213  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 05:08:36.389  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 154ms. Found 1 repository interfaces.
+2019-11-28 05:08:37.196  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 05:08:38.260  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 05:08:38.280  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 05:08:38.284  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 05:08:38.284  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 05:08:38.542  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 05:08:38.542  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 4117 ms
+2019-11-28 05:08:38.820  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 05:08:39.007  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 05:08:39.038  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 05:08:39.136  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 05:08:39.261  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 05:08:39.533  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 05:08:39.839  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 05:08:41.509  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 05:08:41.532  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 05:08:43.079  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 05:08:43.207  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 05:08:43.579  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 05:08:43.635  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 05:08:43.639  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 10.438 seconds (JVM running for 11.982)
+2019-11-28 05:08:44.103  [http-nio-91-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 05:08:44.103  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 05:08:44.123  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 20 ms
+2019-11-28 05:09:35.132  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 05:09:35.136  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 05:09:35.140  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 05:09:35.152  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 05:10:28.562  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 207584 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 05:10:28.566  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 05:10:29.821  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 05:10:29.923  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 85ms. Found 1 repository interfaces.
+2019-11-28 05:10:30.362  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 05:10:31.348  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 05:10:31.348  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 05:10:31.364  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 05:10:31.364  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 05:10:31.509  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 05:10:31.509  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 2819 ms
+2019-11-28 05:10:31.730  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 05:10:31.863  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 05:10:31.895  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 05:10:31.977  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 05:10:32.104  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 05:10:32.348  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 05:10:32.541  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 05:10:33.807  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 05:10:33.807  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 05:10:34.698  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 05:10:34.776  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 05:10:35.182  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 05:10:35.213  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 05:10:35.213  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 7.446 seconds (JVM running for 8.692)
+2019-11-28 05:10:37.602  [http-nio-91-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 05:10:37.602  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 05:10:37.618  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 16 ms
+2019-11-28 05:11:26.746  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 217436 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 05:11:26.761  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 05:11:28.276  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 05:11:28.425  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 124ms. Found 1 repository interfaces.
+2019-11-28 05:11:29.137  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 05:11:30.231  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 05:11:30.247  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 05:11:30.247  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 05:11:30.247  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 05:11:30.505  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 05:11:30.505  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 3619 ms
+2019-11-28 05:11:30.744  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 05:11:30.909  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 05:11:30.940  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 05:11:31.047  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 05:11:31.229  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 05:11:31.572  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 05:11:31.852  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 05:11:33.454  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 05:11:33.463  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 05:11:34.983  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 05:11:35.122  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 05:11:35.486  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 05:11:35.538  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 05:11:35.542  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 9.859 seconds (JVM running for 11.289)
+2019-11-28 05:11:35.750  [http-nio-91-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 05:11:35.750  [http-nio-91-exec-3] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 05:11:35.766  [http-nio-91-exec-3] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 16 ms
+2019-11-28 05:11:52.726  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 05:11:52.726  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 05:11:52.730  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 05:11:52.742  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 22:47:08.818  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 327760 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 22:47:08.894  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 22:47:09.983  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 22:47:10.092  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 90ms. Found 1 repository interfaces.
+2019-11-28 22:47:10.494  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 22:47:11.388  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 22:47:11.399  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 22:47:11.400  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 22:47:11.400  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 22:47:11.521  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 22:47:11.521  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 2494 ms
+2019-11-28 22:47:11.701  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 22:47:11.807  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 22:47:11.822  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 22:47:11.885  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 22:47:11.994  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 22:47:12.217  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 22:47:12.384  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 22:47:13.465  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 22:47:13.476  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:47:14.519  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 22:47:14.605  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:47:14.904  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 22:47:14.979  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 22:47:14.981  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 6.935 seconds (JVM running for 7.78)
+2019-11-28 22:47:28.994  [http-nio-91-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 22:47:28.994  [http-nio-91-exec-2] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 22:47:29.008  [http-nio-91-exec-2] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 13 ms
+2019-11-28 22:48:41.671  [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool trackingToken:  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s655ms7µs600ns).
+2019-11-28 22:49:57.749  [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool trackingToken:  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s77ms885µs300ns).
+2019-11-28 22:55:27.218  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:55:27.219  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:55:27.222  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 22:55:27.235  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 22:55:33.733  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 333332 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 22:55:33.737  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 22:55:34.816  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 22:55:34.909  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 79ms. Found 1 repository interfaces.
+2019-11-28 22:55:35.379  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 22:55:36.067  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 22:55:36.077  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 22:55:36.078  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 22:55:36.078  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 22:55:36.194  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 22:55:36.194  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 2365 ms
+2019-11-28 22:55:36.394  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 22:55:36.519  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 22:55:36.535  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 22:55:36.613  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 22:55:36.722  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 22:55:36.941  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 22:55:37.113  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 22:55:38.063  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 22:55:38.072  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:55:39.001  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 22:55:39.076  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:55:39.305  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 22:55:39.339  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 22:55:39.342  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 6.276 seconds (JVM running for 7.068)
+2019-11-28 22:55:52.659  [http-nio-91-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 22:55:52.659  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 22:55:52.666  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 7 ms
+2019-11-28 22:55:52.869  [http-nio-91-exec-1] ERROR c.e.proyectsvc.controller.Controller trackingToken:  - Hubo un error en getProducts, en la línea 45 en el método BuildResponse, detalle del error {}
+java.lang.NullPointerException: null
+	at com.exam.proyectsvc.build.ProductResponseParser.BuildResponse(ProductResponseParser.java:45)
+	at com.exam.proyectsvc.build.ProductResponseParser.BuildResponse(ProductResponseParser.java:15)
+	at com.exam.proyectsvc.process.ProductProcess.process(ProductProcess.java:44)
+	at com.exam.proyectsvc.controller.Controller.getProducts(Controller.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-28 22:56:20.990  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:56:20.991  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:56:20.994  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 22:56:21.000  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 22:56:25.487  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Starting ProductSvcApplication on LT1A5CD82395CB with PID 334732 (C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc\target\classes started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 22:56:25.492  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - The following profiles are active: local
+2019-11-28 22:56:26.705  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 22:56:26.802  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 80ms. Found 1 repository interfaces.
+2019-11-28 22:56:27.206  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 22:56:27.911  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat initialized with port(s): 91 (http)
+2019-11-28 22:56:27.926  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Initializing ProtocolHandler ["http-nio-91"]
+2019-11-28 22:56:27.926  [main] INFO  o.a.catalina.core.StandardService trackingToken:  - Starting service [Tomcat]
+2019-11-28 22:56:27.926  [main] INFO  o.a.catalina.core.StandardEngine trackingToken:  - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 22:56:28.114  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring embedded WebApplicationContext
+2019-11-28 22:56:28.114  [main] INFO  o.s.web.context.ContextLoader trackingToken:  - Root WebApplicationContext: initialization completed in 2531 ms
+2019-11-28 22:56:28.301  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 22:56:28.535  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 22:56:28.550  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 22:56:28.613  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 22:56:28.718  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 22:56:28.892  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 22:56:29.053  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 22:56:30.042  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 22:56:30.057  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:56:30.966  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 22:56:31.044  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:56:31.272  [main] INFO  o.a.coyote.http11.Http11NioProtocol trackingToken:  - Starting ProtocolHandler ["http-nio-91"]
+2019-11-28 22:56:31.303  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer trackingToken:  - Tomcat started on port(s): 91 (http) with context path ''
+2019-11-28 22:56:31.306  [main] INFO  c.e.proyectsvc.ProductSvcApplication trackingToken:  - Started ProductSvcApplication in 6.501 seconds (JVM running for 7.288)
+2019-11-28 22:56:35.019  [http-nio-91-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] trackingToken:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 22:56:35.019  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Initializing Servlet 'dispatcherServlet'
+2019-11-28 22:56:35.027  [http-nio-91-exec-1] INFO  o.s.web.servlet.DispatcherServlet trackingToken:  - Completed initialization in 8 ms
+2019-11-28 22:56:52.988  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:56:52.988  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:56:52.991  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 22:56:52.997  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.

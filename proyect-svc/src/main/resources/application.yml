@@ -1,0 +1,14 @@
+server:
+  port: 91
+spring:
+  profiles:
+    active: local
+
+service:
+  configuration:
+    http:
+      http-request-timeout: 30000
+      socket-timeout: 30000
+      conn-request-timeout: 30000
+      max-threads: 400
+      max-threads-per-route: 200

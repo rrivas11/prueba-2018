@@ -1,0 +1,874 @@
+2019-11-28 10:51:26.253  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 240840 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 10:51:26.254  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 10:51:27.809  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 10:51:27.943  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 107ms. Found 1 repository interfaces.
+2019-11-28 10:51:28.529  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 10:51:28.843  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 10:51:29.260  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 10:51:29.352  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 10:51:29.438  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 10:51:29.986  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 10:51:30.459  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 10:51:31.565  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 10:51:33.728  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 10:51:33.738  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 10:51:35.550  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 10:51:35.821  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 10:51:36.502  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 10.86 seconds (JVM running for 13.936)
+2019-11-28 10:52:11.339  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 10:52:11.340  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 10:52:11.342  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 10:52:11.352  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 10:52:21.970  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 241784 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 10:52:21.970  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 10:52:22.987  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 10:52:23.067  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces.
+2019-11-28 10:52:23.561  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 10:52:23.771  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 10:52:23.913  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 10:52:23.935  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 10:52:24.019  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 10:52:24.113  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 10:52:24.304  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 10:52:24.835  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 10:52:25.927  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 10:52:25.940  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 10:52:27.342  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 10:52:27.537  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 10:52:28.031  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 6.514 seconds (JVM running for 8.244)
+2019-11-28 10:52:49.705  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 10:52:49.706  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 10:52:49.708  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 10:52:49.715  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:02:33.100  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 245164 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:02:33.101  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:02:34.303  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:02:34.414  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces.
+2019-11-28 11:02:35.018  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:02:35.287  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:02:35.517  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:02:35.541  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:02:35.631  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:02:35.783  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:02:36.083  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:02:36.864  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:02:38.376  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:02:38.385  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:02:39.983  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:02:40.220  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:02:40.798  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 8.236 seconds (JVM running for 10.521)
+2019-11-28 11:02:41.004  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:02:41.005  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:02:41.008  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:02:41.020  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:03:09.817  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 245496 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:03:09.818  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:03:11.041  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:03:11.138  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 83ms. Found 1 repository interfaces.
+2019-11-28 11:03:11.761  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:03:12.031  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:03:12.206  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:03:12.232  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:03:12.371  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:03:12.511  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:03:12.780  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:03:13.556  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:03:14.967  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:03:14.979  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:03:16.622  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:03:16.834  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:03:17.494  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 8.293 seconds (JVM running for 10.591)
+2019-11-28 11:03:17.669  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:03:17.671  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:03:17.674  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:03:17.688  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:03:58.745  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 231036 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:03:58.747  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:04:00.007  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:04:00.129  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 102ms. Found 1 repository interfaces.
+2019-11-28 11:04:00.710  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:04:00.991  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:04:01.156  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:04:01.180  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:04:01.304  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:04:01.462  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:04:01.727  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:04:02.496  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:04:03.841  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:04:03.855  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:04:05.552  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:04:05.793  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:04:06.361  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 8.234 seconds (JVM running for 10.398)
+2019-11-28 11:04:06.540  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:04:06.542  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:04:06.545  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:04:06.561  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:23:26.880  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 249828 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:23:26.896  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:23:29.053  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:23:29.213  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 116ms. Found 1 repository interfaces.
+2019-11-28 11:23:30.109  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:23:30.545  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:23:30.973  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:23:31.035  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:23:31.214  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:23:31.474  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:23:31.908  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:23:32.761  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:23:36.943  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:23:36.955  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:23:39.287  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:23:39.532  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:23:40.159  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 14.112 seconds (JVM running for 17.871)
+2019-11-28 11:23:40.442  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:23:40.442  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:23:40.446  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:23:40.472  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:26:16.982  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 248980 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:26:16.982  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:26:18.163  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:26:18.268  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 88ms. Found 1 repository interfaces.
+2019-11-28 11:26:18.798  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:26:19.062  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:26:19.282  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:26:19.306  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:26:19.401  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:26:19.553  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:26:19.845  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:26:20.618  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:26:22.002  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:26:22.010  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:26:23.566  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:26:23.776  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:26:24.296  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 7.838 seconds (JVM running for 9.909)
+2019-11-28 11:26:24.454  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:26:24.454  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:26:24.458  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:26:24.473  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:26:36.168  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 251460 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:26:36.170  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:26:37.546  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:26:37.680  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 114ms. Found 1 repository interfaces.
+2019-11-28 11:26:38.530  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:26:38.835  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:26:39.035  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:26:39.071  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:26:39.215  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:26:39.384  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:26:39.720  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:26:40.586  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:26:42.364  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:26:42.380  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:26:44.301  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:26:44.580  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:26:45.303  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 9.873 seconds (JVM running for 12.78)
+2019-11-28 11:27:04.928  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:27:04.928  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:27:04.930  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:27:04.945  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:28:44.312  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 252072 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:28:44.312  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:28:45.723  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:28:45.872  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 133ms. Found 1 repository interfaces.
+2019-11-28 11:28:46.698  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:28:47.028  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:28:47.230  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:28:47.352  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:28:47.497  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:28:47.676  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:28:48.017  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:28:48.915  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:28:50.507  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:28:50.519  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:28:52.412  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:28:52.687  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:28:53.387  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 9.916 seconds (JVM running for 12.343)
+2019-11-28 11:28:53.604  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:28:53.606  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:28:53.611  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:28:53.624  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:29:39.949  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 251216 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:29:39.953  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:29:41.483  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:29:41.611  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 112ms. Found 1 repository interfaces.
+2019-11-28 11:29:42.489  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:29:42.805  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:29:43.009  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:29:43.049  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:29:43.213  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:29:43.388  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:29:43.700  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:29:44.616  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:29:46.459  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:29:46.471  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:29:48.337  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:29:48.574  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:29:49.281  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 10.132 seconds (JVM running for 12.638)
+2019-11-28 11:29:49.480  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:29:49.484  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:29:49.488  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:29:49.498  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:30:16.572  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 252244 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:30:16.572  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:30:18.367  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:30:18.528  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 136ms. Found 1 repository interfaces.
+2019-11-28 11:30:19.619  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:30:20.011  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:30:20.265  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:30:20.295  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:30:20.453  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:30:20.655  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:30:21.088  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:30:22.133  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:30:24.340  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:30:24.360  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:30:26.879  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:30:27.266  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:30:28.151  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 12.547 seconds (JVM running for 16.024)
+2019-11-28 11:31:13.245  [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool trackingToken:  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s453ms289µs600ns).
+2019-11-28 11:31:28.670  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:31:28.674  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:31:28.678  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:31:28.694  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:35:47.752  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 252924 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:35:47.756  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:35:48.915  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:35:49.009  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 76ms. Found 1 repository interfaces.
+2019-11-28 11:35:49.563  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:35:49.839  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:35:50.011  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:35:50.035  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:35:50.127  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:35:50.263  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:35:50.555  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:35:51.307  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:35:52.575  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:35:52.583  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:35:54.095  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:35:54.307  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:35:54.867  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 7.819 seconds (JVM running for 9.817)
+2019-11-28 11:35:55.039  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:35:55.043  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:35:55.047  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:35:55.059  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:37:03.941  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 250308 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:37:03.945  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:37:05.059  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:37:05.163  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 93ms. Found 1 repository interfaces.
+2019-11-28 11:37:05.682  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:37:05.944  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:37:06.107  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:37:06.127  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:37:06.227  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:37:06.363  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:37:06.655  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:37:07.434  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:37:08.694  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:37:08.702  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:37:09.942  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:37:10.386  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:37:10.938  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 7.515 seconds (JVM running for 9.547)
+2019-11-28 11:37:11.110  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:37:11.110  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:37:11.114  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:37:11.130  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 11:37:29.938  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 244944 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 11:37:29.938  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 11:37:31.198  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 11:37:31.302  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 88ms. Found 1 repository interfaces.
+2019-11-28 11:37:31.926  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 11:37:32.214  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 11:37:32.410  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 11:37:32.442  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 11:37:32.562  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 11:37:32.718  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 11:37:33.002  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 11:37:33.806  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 11:37:35.286  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 11:37:35.294  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:37:36.826  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 11:37:37.026  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:37:37.574  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 8.211 seconds (JVM running for 10.439)
+2019-11-28 11:37:37.750  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 11:37:37.750  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 11:37:37.754  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 11:37:37.782  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 22:45:56.791  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 331840 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 22:45:56.807  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 22:45:58.056  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 22:45:58.137  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+2019-11-28 22:45:58.335  [main] ERROR o.s.boot.SpringApplication trackingToken:  - Application run failed
+java.lang.IllegalArgumentException: Could not resolve placeholder 'config.endpoints.product.parser' in value "${config.endpoints.product.parser}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.core.SimpleAliasRegistry.lambda$resolveAliases$1(SimpleAliasRegistry.java:164)
+	at java.util.HashMap.forEach(HashMap.java:1288)
+	at org.springframework.core.SimpleAliasRegistry.resolveAliases(SimpleAliasRegistry.java:162)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:234)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:182)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:157)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-11-28 22:45:58.338  [main] ERROR o.s.test.context.TestContextManager trackingToken:  - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@35b74c5c] to prepare test instance [com.exam.proyectsvc.ProductSvcApplicationTests@6f7e336b]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'config.endpoints.product.parser' in value "${config.endpoints.product.parser}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.core.SimpleAliasRegistry.lambda$resolveAliases$1(SimpleAliasRegistry.java:164)
+	at java.util.HashMap.forEach(HashMap.java:1288)
+	at org.springframework.core.SimpleAliasRegistry.resolveAliases(SimpleAliasRegistry.java:162)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:234)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:182)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:157)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 63 common frames omitted
+2019-11-28 22:45:58.375  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 331840 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 22:45:58.375  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 22:45:58.600  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 22:45:58.625  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 24ms. Found 1 repository interfaces.
+2019-11-28 22:45:58.658  [main] ERROR o.s.boot.SpringApplication trackingToken:  - Application run failed
+java.lang.IllegalArgumentException: Could not resolve placeholder 'config.endpoints.product.parser' in value "${config.endpoints.product.parser}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.core.SimpleAliasRegistry.lambda$resolveAliases$1(SimpleAliasRegistry.java:164)
+	at java.util.HashMap.forEach(HashMap.java:1288)
+	at org.springframework.core.SimpleAliasRegistry.resolveAliases(SimpleAliasRegistry.java:162)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:234)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:182)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:157)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-11-28 22:45:58.658  [main] ERROR o.s.test.context.TestContextManager trackingToken:  - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@35b74c5c] to prepare test instance [com.exam.proyectsvc.ProductSvcApplicationTests@23f3dbf0]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'config.endpoints.product.parser' in value "${config.endpoints.product.parser}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.core.SimpleAliasRegistry.lambda$resolveAliases$1(SimpleAliasRegistry.java:164)
+	at java.util.HashMap.forEach(HashMap.java:1288)
+	at org.springframework.core.SimpleAliasRegistry.resolveAliases(SimpleAliasRegistry.java:162)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:234)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:182)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:157)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 63 common frames omitted
+2019-11-28 22:45:58.713  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 331840 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 22:45:58.713  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 22:45:58.916  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 22:45:58.947  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 22ms. Found 1 repository interfaces.
+2019-11-28 22:45:58.978  [main] ERROR o.s.boot.SpringApplication trackingToken:  - Application run failed
+java.lang.IllegalArgumentException: Could not resolve placeholder 'config.endpoints.product.parser' in value "${config.endpoints.product.parser}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.core.SimpleAliasRegistry.lambda$resolveAliases$1(SimpleAliasRegistry.java:164)
+	at java.util.HashMap.forEach(HashMap.java:1288)
+	at org.springframework.core.SimpleAliasRegistry.resolveAliases(SimpleAliasRegistry.java:162)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:234)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:182)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:157)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-11-28 22:45:58.978  [main] ERROR o.s.test.context.TestContextManager trackingToken:  - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@35b74c5c] to prepare test instance [com.exam.proyectsvc.ProductSvcApplicationTests@6a094db2]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'config.endpoints.product.parser' in value "${config.endpoints.product.parser}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.core.SimpleAliasRegistry.lambda$resolveAliases$1(SimpleAliasRegistry.java:164)
+	at java.util.HashMap.forEach(HashMap.java:1288)
+	at org.springframework.core.SimpleAliasRegistry.resolveAliases(SimpleAliasRegistry.java:162)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:234)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:182)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:157)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 63 common frames omitted
+2019-11-28 22:46:29.673  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 332220 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 22:46:29.673  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 22:46:30.432  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 22:46:30.494  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
+2019-11-28 22:46:31.164  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 22:46:31.478  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 22:46:31.898  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 22:46:31.945  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 22:46:32.039  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 22:46:32.164  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 22:46:32.369  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 22:46:32.945  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 22:46:34.567  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 22:46:34.582  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:46:37.635  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 22:46:37.826  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:46:38.259  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 8.919 seconds (JVM running for 10.219)
+2019-11-28 22:46:38.411  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:46:38.412  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:46:38.414  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 22:46:38.432  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
+2019-11-28 22:57:17.999  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Starting ProductSvcApplicationTests on LT1A5CD82395CB with PID 334776 (started by rsrivas in C:\Users\rsrivas\Documents\PRACTICE-PROJECTS\proyect-svc)
+2019-11-28 22:57:18.000  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - The following profiles are active: testing
+2019-11-28 22:57:18.794  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-28 22:57:18.859  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate trackingToken:  - Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces.
+2019-11-28 22:57:19.245  [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker trackingToken:  - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 22:57:19.437  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Starting...
+2019-11-28 22:57:19.548  [main] INFO  com.zaxxer.hikari.pool.PoolBase trackingToken:  - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2019-11-28 22:57:19.564  [main] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Start completed.
+2019-11-28 22:57:19.625  [main] INFO  o.h.jpa.internal.util.LogHelper trackingToken:  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-28 22:57:19.689  [main] INFO  org.hibernate.Version trackingToken:  - HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-28 22:57:19.863  [main] INFO  o.h.annotations.common.Version trackingToken:  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-28 22:57:20.362  [main] INFO  org.hibernate.dialect.Dialect trackingToken:  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-11-28 22:57:21.238  [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator trackingToken:  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-28 22:57:21.245  [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:57:22.311  [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration trackingToken:  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-28 22:57:22.457  [main] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:57:22.830  [main] INFO  c.e.p.ProductSvcApplicationTests trackingToken:  - Started ProductSvcApplicationTests in 5.186 seconds (JVM running for 6.452)
+2019-11-28 22:57:22.944  [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor trackingToken:  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 22:57:22.946  [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean trackingToken:  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-28 22:57:22.948  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown initiated...
+2019-11-28 22:57:22.953  [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource trackingToken:  - HikariPool-1 - Shutdown completed.
